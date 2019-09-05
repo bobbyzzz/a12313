@@ -1,0 +1,377 @@
+.shoppingDetails {
+    width: 3.75rem;
+
+    .header {
+        width: 100%;
+        height: .45rem;
+        display: flex;
+
+        p:nth-of-type(1) {
+            width: .375rem;
+            height: .31rem;
+            margin-left: .1875rem;
+            margin-top: .13rem;
+
+            img {
+                width: .09rem;
+                height: .18rem;
+            }
+        }
+
+        p:nth-of-type(3) {
+            width: .375rem;
+            height: .24rem;
+            margin-left: .10rem;
+            margin-top: .20rem;
+
+            img {
+                width: .15rem;
+                height: .0352rem;
+                margin-left: .125rem;
+            }
+        }
+
+        p:nth-of-type(2) {
+            flex: 1;
+            width: .45rem;
+            line-height: .45rem;
+            text-align: center;
+            font-size: .16rem;
+        }
+
+    }
+
+    .banner {
+        width: 100%;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .num {
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.4);
+            position: absolute;
+            right: .2rem;
+            bottom: 0.2rem;
+            padding: .02rem .1rem;
+            border-radius: .10rem;
+        }
+    }
+
+    // .show-enter-active,
+    // .show-leave-active {
+    //     transition: all 2s;
+        
+    // }
+
+    .picShow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 99;
+        background-color: #000;
+
+        // transition: all 0.5s;
+        img {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            // transition: all 0.5s;
+        }
+    }
+
+    .priceNote {
+        width: 100%;
+        height: .4rem;
+        background-color: #c62347;
+        padding: .05rem .15rem;
+
+        p {
+            line-height: .14rem;
+            color: #fff;
+
+            .new {
+                font-size: .18rem;
+            }
+
+            .old {
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    .cuXiao {
+        width: 100%;
+        height: 1.14rem;
+        padding: .12rem 0 .25rem;
+
+        div:nth-of-type(1),
+        div:nth-of-type(2) {
+            // height: .25rem;
+            padding: 0 .15rem;
+            line-height: .15rem;
+        }
+
+        div:nth-of-type(1) {
+            font-size: .15rem;
+            margin-bottom: .05rem;
+            line-height: .2rem;
+
+            span {
+                padding-left: .05rem;
+            }
+        }
+
+        .open {
+            display: flex;
+            align-items: center;
+            color: #626262;
+            justify-content: flex-end;
+
+            img {
+                width: .5rem;
+                height: .2rem;
+                margin-left: .05rem;
+            }
+        }
+    }
+
+    .typeSelect {
+        width: 100%;
+        height: .56rem;
+        border-top: 5px solid #f3f4f5;
+        border-bottom: 5px solid #f3f4f5;
+        display: flex;
+        padding: 0 .2rem;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: .15rem;
+            height: .0352rem;
+        }
+    }
+
+    .shoppingDiscuss {
+        width: 100%;
+
+        .titleDiscuss {
+            width: 100%;
+            height: .45rem;
+            padding: .14rem .15rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: .17rem;
+            border-bottom: 1px solid #c5c5c5;
+
+            img {
+                width: .065rem;
+                height: .125rem;
+                transform: rotate(180deg)
+            }
+
+            p:nth-of-type(1) {
+                padding-left: .1rem;
+                border-left: 2px solid #397bff;
+            }
+        }
+
+        .discuss {
+            width: 100%;
+            padding: 0 .15rem;
+
+            ul li {
+                padding: .2rem 0;
+                border-bottom: 1px solid #c5c5c5;
+
+                .titlePeploe {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    >div:nth-of-type(1) {
+                        width: .3rem;
+                        height: .3rem;
+                        border-radius: .15rem;
+                        margin-right: .1rem;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    >div:nth-of-type(2) {
+                        width: 1.9rem;
+
+                        .star {
+                            margin-top: .06rem;
+                        }
+                    }
+
+                    >div:nth-of-type(3) {
+                        flex: 1;
+                        text-align: center;
+                        color: #ababab;
+                    }
+                }
+
+                .discussContent {
+                    p:nth-of-type(1) {
+                        margin-top: .12rem;
+                        font-size: .15rem;
+                        line-height: .25rem;
+                    }
+
+                    p:nth-of-type(2) {
+                        color: #999999;
+                        font-size: .13rem;
+                    }
+                }
+
+            }
+        }
+
+        .allDiscuss {
+            height: .5rem;
+            text-align: center;
+            line-height: .5rem;
+            color: #666;
+        }
+    }
+
+    .dataType {
+        width: 100%;
+
+        .titleData {
+            width: 100%;
+            height: .5rem;
+            padding: .14rem .15rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: .17rem;
+            border-bottom: 1px solid #c5c5c5;
+            border-top: 5px solid #f3f4f5;
+
+            >p {
+                padding-left: .1rem;
+                border-left: 2px solid #397bff;
+            }
+        }
+
+        .typeContent {
+            width: 100%;
+            // height: 1.45rem;
+            padding: .15rem 0 .1rem .3rem;
+            overflow: hidden;
+
+            p {
+                width: 100%;
+                display: flex;
+                font-size: .13rem;
+                line-height: .2rem;
+
+                span:nth-of-type(1) {
+                    display: inline-block;
+                    width: .828rem;
+                    color: #989898;
+                }
+            }
+        }
+
+        .allType {
+            display: flex;
+            justify-content: flex-end;
+            height: .47rem;
+            align-items: center;
+            border-bottom: 5px solid #f3f4f5;
+            padding-right: .15rem;
+            color: #989898;
+            border-top: 1px solid #c5c5c5;
+
+            img {
+                width: .08rem;
+                height: .04rem;
+                margin-left: .1rem;
+            }
+        }
+    }
+
+    .picDetails {
+        width: 100%;
+
+        .titleDetails {
+            width: 100%;
+            height: .45rem;
+            padding: .14rem .15rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: .17rem;
+            border-bottom: 1px solid #c5c5c5;
+
+            img {
+                width: .065rem;
+                height: .125rem;
+                transform: rotate(180deg)
+            }
+
+            p:nth-of-type(1) {
+                padding-left: .1rem;
+                border-left: 2px solid #397bff;
+            }
+        }
+
+        .picContent {
+            padding: .15rem;
+
+            img {
+                width: 3.45rem;
+            }
+        }
+    }
+
+
+
+
+
+
+    .footerCar {
+        position: fixed;
+        bottom: 0;
+
+        img {
+            width: .24rem;
+            height: .22rem;
+            position: absolute;
+            top: .03rem;
+        }
+
+        img:nth-of-type(1) {
+            left: .21rem;
+        }
+
+        img:nth-of-type(2) {
+            left: .83rem;
+        }
+
+        .van-goods-action-icon {
+            width: .6463rem;
+            justify-content: flex-end;
+            padding-bottom: .07rem;
+        }
+    }
+}
+
+.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}

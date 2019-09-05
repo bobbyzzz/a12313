@@ -1,0 +1,182 @@
+.homePage {
+  width: 3.75rem;
+}
+.homePage .header {
+  width: 100%;
+  height: 0.46rem;
+  position: relative;
+}
+.homePage .header form input {
+  width: 2.75rem;
+  height: 0.25rem;
+  background-color: #f3f4f5;
+  border-radius: 0.125rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.homePage .header img {
+  width: 0.16rem;
+  height: 0.16rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.homePage .header .search {
+  right: 0.6rem;
+}
+.homePage .header .msg {
+  right: 0.2rem;
+}
+.homePage .banner {
+  width: 100%;
+}
+.homePage .banner img {
+  width: 100%;
+}
+.homePage .view {
+  width: 100%;
+  padding-top: 0.1rem;
+  margin-top: .05rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.homePage .view ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.homePage .view ul li {
+  width: 0.75rem;
+  padding: 0.05rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homePage .view ul li img {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+.homePage .view ul li p {
+  padding: .1rem 0;
+}
+.homePage .dayNews {
+  width: 100%;
+  padding: .1rem;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.homePage .dayNews img {
+  width: .7rem;
+  height: .2rem;
+}
+.homePage .dayNews .scrollNews {
+  width: 2.3rem;
+}
+.homePage .dayNews .scrollNews .van-swipe-item {
+  padding: 0 0.05rem;
+  font-size: .14rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 0.2rem;
+}
+.homePage .dayNews .more {
+  width: .5rem;
+  height: .1rem;
+  color: #c62347;
+  text-align: center;
+  border-left: 1px solid #ccc;
+}
+.homePage .main {
+  width: 100%;
+}
+.homePage .main .father-ul .mainBanner {
+  width: 100%;
+  height: 1.4rem;
+  padding: .125rem;
+  background-color: #f3f4f5;
+}
+.homePage .main .father-ul .mainBanner .picBanner {
+  width: 3.5rem;
+}
+.homePage .main .father-ul .mainTitle {
+  width: 100%;
+  height: 0.415rem;
+  padding-left: .5rem;
+  background-color: #fef6f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.homePage .main .father-ul .mainTitle .mainTitle-left {
+  position: relative;
+}
+.homePage .main .father-ul .mainTitle .mainTitle-left > img {
+  width: 2.275rem;
+  height: .3367rem;
+}
+.homePage .main .father-ul .mainTitle .mainTitle-left > p {
+  height: .16rem;
+  line-height: .16rem;
+  font-size: .16rem;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(0, -50%);
+  color: transparent;
+  background: linear-gradient(90deg, red, blue);
+  background-image: linear-gradient(90deg, red, blue);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: text;
+  background-color: initial;
+}
+.homePage .main .father-ul .mainTitle .mainTitle-right {
+  display: flex;
+  align-items: center;
+  font-size: .14rem;
+  justify-content: space-around;
+}
+.homePage .main .father-ul .mainTitle .mainTitle-right > img {
+  width: .15rem;
+  height: 0.15rem;
+}
+.homePage .main .child-ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fef6f7;
+  padding: 0 .18rem;
+  justify-content: space-between;
+}
+.homePage .main .child-ul li:nth-of-type(1),
+.homePage .main .child-ul li:nth-of-type(2) {
+  width: 1.6875rem;
+  height: 1.14rem;
+}
+.homePage .main .child-ul li:nth-of-type(1) > img,
+.homePage .main .child-ul li:nth-of-type(2) > img {
+  width: 1.6875rem;
+  height: 1.14rem;
+}
+.homePage .main .child-ul li:nth-of-type(3),
+.homePage .main .child-ul li:nth-of-type(5),
+.homePage .main .child-ul li:nth-of-type(4) {
+  width: 1.1138rem;
+  height: 1.2113rem;
+  margin-top: .2rem;
+}
+.homePage .main .child-ul li:nth-of-type(3) > img,
+.homePage .main .child-ul li:nth-of-type(5) > img,
+.homePage .main .child-ul li:nth-of-type(4) > img {
+  width: 1.1138rem;
+  height: 1.2113rem;
+}

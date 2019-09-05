@@ -1,0 +1,257 @@
+.brand {
+    width: 3.75rem;
+    position: relative;
+
+    .header {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        width: 100%;
+        height: .44rem;
+        display: flex;
+        background-color: #fd5252;
+
+        >div {
+            width: .44rem;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: .09rem;
+                height: .16rem;
+            }
+        }
+
+        .title {
+            width: 2.7rem;
+            height: 100%;
+            text-align: center;
+            line-height: .44rem;
+            color: #fff;
+            font-size: .18rem;
+        }
+
+        .select {
+            flex: 1;
+            text-align: center;
+            line-height: .44rem;
+            color: #fff;
+            font-size: .14rem;
+        }
+    }
+
+    .selectList {
+        width: 100%;
+        height: 3rem;
+        padding: .5rem 0 .5rem;
+        background-color: #fff;
+        position: absolute;
+        z-index: 3;
+        overflow-x: auto;
+
+        .title {
+            font-size: .16rem;
+            height: .36rem;
+            padding: 0 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ededed;
+
+            span:nth-of-type(2) {
+                font-size: .12rem;
+                color: #999999;
+            }
+        }
+
+        .nav {
+            font-size: .14rem;
+            height: 59px;
+            padding-bottom: .15rem;
+            border-bottom: 1px solid #f8f8f8;
+            overflow-x: auto;
+
+            >div {
+                display: flex;
+                width: 5rem;
+
+                p {
+                    width: .6rem;
+                    height: .44rem;
+                    line-height: .44rem;
+                    margin-left: .15rem;
+                }
+
+                .line {
+                    color: #c62347;
+                    border-bottom: 1px solid #c62347;
+                }
+            }
+        }
+
+        .nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+
+            p {
+                padding: .05rem .15rem;
+                border: 1px solid #cbcbcb;
+                color: #666666;
+                border-radius: .15rem;
+                margin-top: .15rem;
+                margin-left: .1rem;
+            }
+
+            .isSelecter {
+                color: #c62347 !important;
+                border: 1px solid #c62347 !important;
+            }
+        }
+
+        .foot {
+            position: fixed;
+            top: 2.65rem;
+            display: flex;
+
+            p {
+                width: 1.875rem;
+                height: .4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex: 1;
+                font-size: .16rem;
+            }
+
+            p:nth-of-type(1) {
+                background-color: #fdf0f0;
+                color: #c62347;
+            }
+
+            p:nth-of-type(2) {
+                background-color: #c62347;
+                color: #fff;
+            }
+        }
+    }
+
+    .maskLayer {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 3rem;
+        z-index: 2;
+    }
+
+
+    .shoppingList {
+        width: 100%;
+        margin-top: .44rem;
+        padding: .4rem .15rem .15rem;
+
+        li {
+            border: 1px solid #ccc;
+            border-radius: .05rem;
+            display: flex;
+            margin-bottom: .15rem;
+
+            .shoppingPic {
+                width: 1.25rem;
+                height: 1.25rem;
+
+                img {
+                    width: 1.25rem;
+                    height: 1.25rem;
+                }
+            }
+
+            .content {
+                padding: .15rem;
+
+                >p {
+                    font-size: .16rem;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    line-height: .2rem;
+                }
+
+                .price {
+                    position: relative;
+
+                    .newPrice span {
+                        font-size: .16rem;
+                        color: #c62347;
+                        line-height: .2rem;
+                    }
+
+                    .oldPrice {
+                        color: #999999;
+                        line-height: .2rem;
+
+                        >span {
+                            text-decoration: line-through;
+                        }
+                    }
+
+                    .goToBuy {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+
+                        .van-tag--danger {
+                            background-color: #c62347;
+                        }
+                    }
+                }
+
+                .rob {
+                    margin-top: .05rem;
+                    width: 100%;
+                    height: .225rem;
+                    position: relative;
+                    z-index: 1;
+                    background-color: #ff9933;
+                    border-radius: .113rem;
+                    overflow: hidden;
+
+                    p:nth-of-type(2) {
+                        color: #fff;
+                        font-size: .16rem;
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%)
+                    }
+
+                    p:nth-of-type(3) {
+                        color: #fe5253;
+                        font-size: .16rem;
+                        position: absolute;
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%)
+                    }
+                }
+            }
+        }
+    }
+}
+
+.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}

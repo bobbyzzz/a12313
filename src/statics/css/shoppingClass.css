@@ -1,0 +1,46 @@
+.shoppingClass {
+  width: 3.75rem;
+  display: flex;
+}
+.shoppingClass .van-sidebar-item {
+  width: 0.86rem;
+  height: 0.4rem;
+  padding: 0;
+}
+.shoppingClass .van-sidebar-item .van-sidebar-item__text {
+  text-align: center;
+  line-height: 0.4rem;
+}
+.shoppingClass .contentRight {
+  width: 2.89rem;
+}
+.shoppingClass .contentRight .navTitle {
+  width: 100%;
+}
+.shoppingClass .contentRight .navTitle img {
+  width: 100%;
+}
+.shoppingClass .contentRight .tabTitle {
+  width: 1.8rem;
+  margin: auto;
+}
+.shoppingClass .contentRight .tab2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shoppingClass .contentRight .tab2 .content3 {
+  padding-bottom: 0.1rem;
+}
+.shoppingClass .contentRight .tab2 .content3 .shoppingImg {
+  width: 0.9323rem;
+  height: 0.75rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+}
+.shoppingClass .contentRight .tab2 .content3 .shoppingImg img {
+  width: 0.7rem;
+  height: 0.75rem;
+}
+.shoppingClass .contentRight .tab2 .content3 .shoppingName {
+  text-align: center;
+}
