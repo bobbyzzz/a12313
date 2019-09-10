@@ -3,25 +3,25 @@
     <!-- 头部 -->
     <div class="header">
       <form action="#">
-        <input type="text" />
+        <input type="text">
       </form>
-      <img class="search" src="../statics/img/icon/search.png" alt />
-      <img class="msg" src="../statics/img/icon/msg.png" alt />
+      <img class="search" src="../statics/img/icon/search.png" alt>
+      <img class="msg" src="../statics/img/icon/msg.png" alt>
     </div>
     <!-- 轮播 -->
     <div class="banner">
       <van-swipe :autoplay="3000" indicator-color="white">
         <van-swipe-item @click="bannerTap(index)" v-for="(item, index) in bannerArr" :key="index">
-          <img :src="item.src" alt />
+          <img :src="item.src" alt>
         </van-swipe-item>
       </van-swipe>
     </div>
     <!-- 视图 -->
     <div class="view">
       <ul>
-        <li v-for="(item, index) in viewArr" :key="index">
+        <li @click="getItemId(item,index)" v-for="(item, index) in viewArr" :key="index">
           <div>
-            <img v-lazy="item.pic" alt />
+            <img v-lazy="item.pic" alt>
           </div>
           <p>{{item.title}}</p>
         </li>
@@ -30,34 +30,38 @@
     <!-- 每日头条 -->
     <div class="dayNews">
       <div>
-        <img src="../statics/img/index/tomorrow.png" alt />
+        <img src="../statics/img/index/tomorrow.png" alt>
       </div>
       <div class="scrollNews">
         <van-swipe style="height: 0.2rem;" :autoplay="3000" vertical :show-indicators="false">
           <van-swipe-item v-for="(item, index) in dayNewsArr" :key="index">{{item.content}}</van-swipe-item>
         </van-swipe>
       </div>
-      <div class="more">更多</div>
+      <router-link to="/shoppingClass">
+        <div class="more">更多</div>
+      </router-link>
     </div>
     <!-- 主体 -->
     <div class="main">
       <ul class="father-ul" v-for="(item, index) in mainArr" :key="index">
         <li class="mainBanner">
-          <img class="picBanner" v-lazy="item.banner" alt />
+          <img class="picBanner" v-lazy="item.banner" alt>
         </li>
         <li class="mainTitle">
           <div class="mainTitle-left">
-            <img src="../statics/img/index/titleBcg.png" alt />
+            <img src="../statics/img/index/titleBcg.png" alt>
             <p>{{item.title}}</p>
           </div>
-          <div class="mainTitle-right">
-            <p>更多分类</p>
-            <img src="../statics/img/icon/arrow.png" alt />
-          </div>
+          <router-link to="/shoppingClass">
+            <div class="mainTitle-right">
+              <p>更多分类</p>
+              <img src="../statics/img/icon/arrow.png" alt>
+            </div>
+          </router-link>
         </li>
         <ul class="child-ul">
-          <li v-for="(items, index) in item.shopList" :key="index">
-            <img v-lazy="items.shopImg" alt />
+          <li @click="getItemsData(items)" v-for="(items, index) in item.shopList" :key="index">
+            <img v-lazy="items.shopImg" alt>
           </li>
         </ul>
       </ul>
@@ -67,7 +71,7 @@
   </div>
 </template>
 <script>
-import myFooter from './footer'
+import myFooter from "./footer";
 export default {
   data() {
     return {
@@ -76,7 +80,7 @@ export default {
       dayNewsArr: [],
       mainArr: [],
       birdData: {},
-      shortData: {},
+      shortData: {}
     };
   },
   components: {
@@ -167,6 +171,20 @@ export default {
         localStorage.setItem("brand", JSON.stringify(this.shortData));
       } else {
         this.$router.push("/shoppingClass");
+      }
+    },
+    getItemsData(items) {
+      // console.log()
+      localStorage.setItem("id", items.url.split("=")[1].split("%")[0]);
+      this.$router.push("/shoppingList");
+    },
+    getItemId(item, index) {
+      console.log(index);
+      if (index == 0 || index == 4) {
+        this.$router.push("/shoppingList");
+      } else {
+        localStorage.setItem("id", item.url.split("=")[1].split("%")[0]);
+        this.$router.push("/shoppingList");
       }
     }
   },
