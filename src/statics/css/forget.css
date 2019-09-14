@@ -1,0 +1,130 @@
+.forget-box {
+  width: 3.75rem;
+}
+.forget-box .myHeads {
+  width: 100%;
+  height: .5rem;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  line-height: .5rem;
+  font-size: .17rem;
+  color: #1a1a1a;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.forget-box .myHeads .header-return {
+  position: absolute;
+  top: 0;
+  left: .1rem;
+  font-size: .12rem;
+}
+.forget-box .myHeads .header-return img {
+  width: .1rem;
+}
+.forget-box .cancel-btn {
+  position: fixed;
+  top: 18px;
+  font-size: .15rem;
+  right: .3rem;
+  color: #c62347;
+  z-index: 99;
+}
+.forget-box .login_top {
+  text-align: center;
+  padding-top: 1rem;
+}
+.forget-box .login_top img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.forget-box .header-box {
+  margin-top: .5rem;
+  border-top: 1px #fff solid;
+  width: 3.25rem;
+  margin-left: .25rem;
+}
+.forget-box .header-box .sms {
+  width: 100% !important;
+  height: .5rem;
+  font-size: .16rem;
+  display: flex;
+}
+.forget-box .header-box .sms .van-cell {
+  border: 1px #ccc solid;
+}
+.forget-box .header-box .sms .van-cell .van-cell__value {
+  font-size: .18rem;
+}
+.forget-box .header-box .sms .van-cell .van-cell__value .van-field__body .van-field__control {
+  padding-left: .04rem;
+}
+.forget-box .header-box .sms .van-cell .van-cell__value .van-field__body .sms-button {
+  border-radius: .04rem !important;
+  background-color: #6bbd2b;
+  border: none;
+}
+.forget-box .header-box .header-input {
+  width: 100%;
+  height: .5rem;
+  font-size: .18rem;
+  padding-left: .2rem;
+  color: #323233 !important;
+  border: 1px rgba(204, 204, 204, 0.555) solid;
+  margin-top: .1rem;
+}
+.forget-box .header-box input::-webkit-input-placeholder,
+.forget-box .header-box text::-webkit-input-placeholder {
+  color: #757575;
+  font-size: .16rem;
+}
+.forget-box .clause-box {
+  width: 100%;
+  margin-top: .1rem;
+  color: #a09e9e;
+  text-align: center;
+  font-family: 'Avenir', 'PingFang SC', "\5FAE\8F6F\96C5\9ED1";
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.forget-box .clause-box input {
+  margin-right: .04rem;
+  height: .135rem;
+  width: .135rem;
+}
+.forget-box .clause-box .clause-txt span {
+  color: #1c9557;
+}
+.forget-box .button-box {
+  width: 100%;
+  height: .4rem;
+  margin-top: .29rem;
+  padding: 0 .14rem;
+  display: flex;
+  justify-content: space-around;
+}
+.forget-box .button-box .button-txt {
+  width: 3.2rem;
+  height: 100%;
+  background-color: #ba2636;
+  border-radius: .04rem;
+  color: #fff;
+  font-size: .16rem;
+  border: none;
+}
+.forget-box .butt1 {
+  position: fixed;
+  margin-left: .5rem;
+  margin-top: .11rem;
+  font-size: .15rem;
+}
+.forget-box .butt1 #selbtn {
+  position: absolute;
+  left: -0.45rem;
+  top: -0.1rem;
+  font-size: .16rem;
+  margin-left: .25rem;
+  margin-top: .1rem;
+}

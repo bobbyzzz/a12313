@@ -1,3 +1,170 @@
-* {
-  padding: 0;
+.shoppingCar {
+  width: 3.75rem;
+}
+.shoppingCar .top {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  height: 0.52rem;
+  padding-bottom: .1rem;
+  display: flex;
+  align-items: center;
+}
+.shoppingCar .top h2 {
+  font-size: 0.18rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.shoppingCar .top p {
+  position: absolute;
+  right: 0.2rem;
+}
+.shoppingCar .top span {
+  position: absolute;
+  right: 0.2rem;
+}
+.shoppingCar .guaner {
+  background-color: #ebebeb;
+  width: 100%;
+  height: 0.7rem;
+  display: flex;
+  justify-content: center;
+}
+.shoppingCar .guaner img {
+  width: 100%;
+  height: 100%;
+}
+.shoppingCar .more {
+  display: flex;
+  width: 100%;
+  height: .46rem;
+  background-color: #f3f4f5;
+}
+.shoppingCar .more .more-l {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: .7rem;
+  justify-content: center;
+  width: 78%;
+}
+.shoppingCar .more .more-l .pic1 {
+  width: 100%;
+  height: 70%;
+}
+.shoppingCar .more .more-l p {
+  position: absolute;
+  font-size: .18rem;
+  color: #8a8585;
+}
+.shoppingCar .more .more-r {
+  display: flex;
+  align-items: center;
+}
+.shoppingCar .more .more-r a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.shoppingCar .more .more-r p {
+  font-size: .14rem;
+  font-family: inherit;
+}
+.shoppingCar .more .more-r .pic2 {
+  width: .18rem;
+  height: .18rem;
+}
+.shoppingCar .shoppingList a {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 0.1rem;
+}
+.shoppingCar .shoppingList li {
+  list-style: none;
+  width: 1.75rem;
+  margin-right: .07rem;
+  margin-left: .05rem;
+  height: 2.3rem;
+  border-radius: .05rem;
+  box-shadow: 0 0 10px 0 rgba(153, 153, 153, 0.2);
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #f7f6f6;
+  margin-bottom: .1rem;
+}
+.shoppingCar .shoppingList li .shop1 {
+  width: 1.7rem;
+  height: 1.5rem;
+  text-align: center;
+}
+.shoppingCar .shoppingList li .shop1 img {
+  vertical-align: middle;
+  width: 1.5rem;
+  height: 100%;
+}
+.shoppingCar .shoppingList li .shop2 {
+  width: 1.7rem;
+  height: .32rem;
+  line-height: .2rem;
+  padding-left: .05rem;
+}
+.shoppingCar .shoppingList li .shop2 p {
+  width: 100%;
+  height: 100%;
+}
+.shoppingCar .shoppingList li .shop3 {
+  width: 1.7rem;
+  height: .3rem;
+  display: flex;
+  align-items: center;
+  margin-top: .05rem;
+  padding-left: .1rem;
+}
+.shoppingCar .shoppingList li .shop3 span {
+  color: red;
+}
+.shoppingCar .shoppingList li .shop3 p {
+  font-size: .16rem;
+  margin-left: .1rem;
+  color: red;
+}
+.shoppingCar .shoppingCarList ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.1rem 0.1rem 0.1rem 0;
+  border-bottom: 1px solid #eee;
+}
+.shoppingCar .shoppingCarList ul li div:nth-of-type(2) .picPath {
+  width: 0.8rem;
+  height: 1.1rem;
+}
+.shoppingCar .shoppingCarList ul li div:nth-of-type(3) {
+  margin-left: .1rem;
+}
+.shoppingCar .shoppingCarList ul li div:nth-of-type(3) .title {
+  width: 1.8rem;
+  font-size: .14rem;
+  line-height: .18rem;
+  margin-bottom: .2rem;
+  margin-right: .1rem;
+}
+.shoppingCar .shoppingCarList ul li div:nth-of-type(3) .priceCount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shoppingCar .shoppingCarList ul li div:nth-of-type(3) .priceCount > p {
+  font-size: .14rem;
+  color: red;
+}
+.shoppingCar .van-checkbox__icon {
+  margin: 0 0.1rem;
 }

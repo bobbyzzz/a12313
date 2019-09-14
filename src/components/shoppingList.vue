@@ -3,12 +3,12 @@
     <!-- 头部 -->
     <div class="header">
       <!-- <router-link to="/shoppingClass"> -->
-      <img @click="goBack" class="arrow" src="../statics/img/icon/arrow-left-black.png" alt>
+      <img @click="goBack" class="arrow" src="../statics/img/icon/arrow-left-black.png" alt />
       <!-- </router-link> -->
       <form action="#">
-        <input type="text">
+        <input type="text" />
       </form>
-      <img class="search" src="../statics/img/icon/search.png" alt>
+      <img class="search" src="../statics/img/icon/search.png" alt />
     </div>
     <!-- 导航头 -->
     <div class="navTitle">
@@ -22,12 +22,12 @@
           <p class="space-r">{{item.navTxt}}</p>
           <div>
             <div>
-              <img @click="upArrow" v-if="item.up" :src="item.normalIconUp" alt>
-              <img @click="upArrow" v-else :src="item.activeIconUp" alt>
+              <img @click="upArrow" v-if="item.up" :src="item.normalIconUp" alt />
+              <img @click="upArrow" v-else :src="item.activeIconUp" alt />
             </div>
             <div>
-              <img @click="downArrow" v-if="item.down" :src="item.normalIconDown" alt>
-              <img @click="downArrow" v-else :src="item.activeIconDown" alt>
+              <img @click="downArrow" v-if="item.down" :src="item.normalIconDown" alt />
+              <img @click="downArrow" v-else :src="item.activeIconDown" alt />
             </div>
           </div>
         </li>
@@ -38,7 +38,7 @@
       <ul>
         <li @click="getId(item)" v-for="(item, index) in listData.r.result" :key="index">
           <p class="img">
-            <img v-lazy="item.image" alt>
+            <img v-lazy="item.image" alt />
           </p>
           <p class="title">{{item.title}}</p>
           <p class="price">￥{{item.price}}</p>
@@ -150,10 +150,43 @@ export default {
     upArrow() {
       this.navTitleData[2].up = true;
       this.navTitleData[2].down = true;
+      var newArr = [];
+      for (var i = 0; i < this.listData.r.result.length; i++) {
+        newArr.push(this.listData.r.result[i]);
+        // console.log(newArr);
+      }
+      // compare比较
+      function compare(property) {
+        return function(a, b) {
+          var value1 = a[property];
+          var value2 = b[property];
+          return value2 - value1;
+        };
+      }
+      //newArr.sort(compare("price"))按数字中价格比较排序
+      // console.log(newArr.sort(compare("price")));
+      this.listData.r.result = newArr.sort(compare("price"));
+      // console.log(newArr);
     },
     downArrow() {
       this.navTitleData[2].up = false;
       this.navTitleData[2].down = false;
+      var newArr = [];
+      for (var i = 0; i < this.listData.r.result.length; i++) {
+        newArr.push(this.listData.r.result[i]);
+        // console.log(newArr);
+      }
+      // compare比较
+      function compare(property) {
+        return function(a, b) {
+          var value1 = a[property];
+          var value2 = b[property];
+          return value1 - value2;
+        };
+      }
+      //newArr.sort(compare("price"))按数字中价格比较排序
+      // console.log(newArr.sort(compare("price")));
+      this.listData.r.result = newArr.sort(compare("price"));
     },
     goBack() {
       this.$router.go(-1);

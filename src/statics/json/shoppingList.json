@@ -1,0 +1,231 @@
+{
+    "status": 200,
+    "message": "操作成功",
+    "data": {
+      "classifydata": [{
+        "shopList": [{
+          "name": "唇膏/唇妆   【挑逗你的双唇】",
+          "shopImg": "http://images.tomorrowgold.com/images/3c/9f/a9/03c12fec180c4e2986218e919cf1aa96.jpg",
+          "id": 21,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=2245%2Fcid&amp;item_top=true"
+        }, {
+          "name": "面膜    【呵护面部肌肤】",
+          "shopImg": "http://images.tomorrowgold.com/images/37/0d/00/970d942ea25a4dcf8ae05afcf56ac702.jpg",
+          "id": 22,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=2219%2Fcid&amp;item_top=true"
+        }, {
+          "name": "防晒隔离  【夏日清爽无忧】",
+          "shopImg": "http://images.tomorrowgold.com/images/61/21/94/f342288b504f43b699f225cbd8db08c2.jpg",
+          "id": 23,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=2259%2Fcid&amp;item_top=true"
+        }, {
+          "name": "维生素/矿物质   【增强免疫力】",
+          "shopImg": "http://images.tomorrowgold.com/images/90/17/76/1a915dc823a14884bc6356748726fe3d.jpg",
+          "id": 24,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=2323%2Fcid&amp;item_top=true"
+        }, {
+          "name": "时尚饰品   【看得见的小情调】",
+          "shopImg": "http://images.tomorrowgold.com/images/48/31/70/adb5b247abd348bd9027af450f2ca847.jpg",
+          "id": 25,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=2343%2Fcid&amp;item_top=true"
+        }],
+        "bannerurl": "https://m.tomorrowgold.com/#/promotion_detail?req=2962379",
+        "banner": "http://images.tomorrowgold.com/images/7f/fb/f1/de7f5b8edfb34b0bbd91b92af5638ce6.jpg",
+        "id": 1,
+        "title": "海 / 外 / 名 / 品",
+        "moreurl": "https://m.tomorrowgold.com/#/classification?time=1560410926289"
+      }, {
+        "shopList": [{
+          "name": "\"护肤套装 焕亮雪肤\"",
+          "shopImg": "http://images.tomorrowgold.com/images/4a/3b/2f/6c217a2d1bbd4a378deb6d44c1ccf2f8.jpg",
+          "id": 26,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=545%2Fcid&amp;item_top=true"
+        }, {
+          "name": "\"个护清洁 开启清新每一天\"",
+          "shopImg": "http://images.tomorrowgold.com/images/38/34/12/d37afef79684453c94877aee0d8df1f2.jpg",
+          "id": 27,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=474%2Fcid&amp;item_top=true"
+        }, {
+          "name": "\"隔离/防晒 阻挡日晒斑\"",
+          "shopImg": "http://images.tomorrowgold.com/images/81/b4/98/3c3213648f6b4be8bb03de6d44bd5981.jpg",
+          "id": 28,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=530%2Fcid&amp;item_top=true"
+        }, {
+          "name": "\"口腔护理 吃出幸福感\"",
+          "shopImg": "http://images.tomorrowgold.com/images/3f/27/8d/33affb080a5942e78f84a73fedfd48e7.jpg",
+          "id": 29,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=468%2Fcid&amp;item_top=true"
+        }, {
+          "name": "\"洁面 清洁每寸肌肤\"",
+          "shopImg": "http://images.tomorrowgold.com/images/39/52/3c/03acb0da7f3a4643b64682a97cc0c59d.jpg",
+          "id": 30,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=420%2Fcid&amp;item_top=true"
+        }],
+        "bannerurl": "https://m.tomorrowgold.com/#/promotion_alone?index=41",
+        "banner": "http://images.tomorrowgold.com/images/eb/df/2b/7a7e0b49a4ac437a9dc02151faadf4a5.jpg",
+        "id": 2,
+        "title": "个 / 护 / 美 / 妆",
+        "moreurl": "https://m.tomorrowgold.com/#/classification?time=1560410926289"
+      }, {
+        "shopList": [{
+          "name": "T恤",
+          "shopImg": "http://images.tomorrowgold.com/images/0f/aa/85/0bc23362e4a741b0b6f3b9aa1e63abe3.jpg",
+          "id": 31,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=439%2Fcid&amp;item_top=true"
+        }, {
+          "name": "连衣裙",
+          "shopImg": "http://images.tomorrowgold.com/images/20/a5/7c/bc6fad211afb4ab19220e8d2a5f46316.jpg",
+          "id": 32,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=434%2Fcid&amp;item_top=true"
+        }, {
+          "name": "半身裙",
+          "shopImg": "http://images.tomorrowgold.com/images/a8/39/d1/3b81033d16e346328decc2381296da1c.jpg",
+          "id": 33,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=517%2Fcid&amp;item_top=true"
+        }, {
+          "name": "手提包",
+          "shopImg": "http://images.tomorrowgold.com/images/c3/ce/4f/6d4d39c1b4fd41fcaaf7d66cf70dc473.jpg",
+          "id": 34,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=879%2Fcid&amp;item_top=true"
+        }, {
+          "name": "凉鞋",
+          "shopImg": "http://images.tomorrowgold.com/images/16/0d/d7/b22ce69928934b5696e54fe38791671e.jpg",
+          "id": 35,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=724%2Fcid&amp;item_top=true"
+        }],
+        "bannerurl": "https://m.tomorrowgold.com/#/promotion_alone?index=40",
+        "banner": "http://images.tomorrowgold.com/images/60/c8/a5/5052a3ded40147858151a4c28b99495d.jpg",
+        "id": 3,
+        "title": "女 / 装 / 配 / 饰",
+        "moreurl": "https://m.tomorrowgold.com/#/classification?time=1560410926289"
+      }, {
+        "shopList": [{
+          "name": "T恤",
+          "shopImg": "http://images.tomorrowgold.com/images/52/62/90/01c4653e609f4d02a4fefea1aef49ac2.jpg",
+          "id": 36,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=602%2Fcid&amp;item_top=true"
+        }, {
+          "name": "商务公文包",
+          "shopImg": "http://images.tomorrowgold.com/images/1c/8f/de/41806e5d60f8420e8095ca99722270cc.jpg",
+          "id": 37,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=924%2Fcid&amp;item_top=true"
+        }, {
+          "name": "短裤",
+          "shopImg": "http://images.tomorrowgold.com/images/b7/20/05/118de25b94734a66a4e132c654f5b106.jpg",
+          "id": 38,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=652%2Fcid&amp;item_top=true"
+        }, {
+          "name": "休闲裤",
+          "shopImg": "http://images.tomorrowgold.com/images/ba/12/ff/14618842bf5c473a9484212c3dd73b60.jpg",
+          "id": 39,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=613%2Fcid&amp;item_top=true"
+        }, {
+          "name": "休闲/运动鞋",
+          "shopImg": "http://images.tomorrowgold.com/images/dc/26/d5/034869b3994346feb47f88c388221e91.jpg",
+          "id": 40,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=799%2Fcid&amp;item_top=true"
+        }],
+        "bannerurl": "https://m.tomorrowgold.com/#/promotion_alone?index=35",
+        "banner": "http://images.tomorrowgold.com/images/ce/d9/71/b6aee68691374447b1cacef448c89734.jpg",
+        "id": 4,
+        "title": "男 / 装 / 配 / 饰",
+        "moreurl": "https://m.tomorrowgold.com/#/classification?time=1560410926289"
+      }, {
+        "shopList": [{
+          "name": "\"休闲零食 爆款零食　出游必备\"",
+          "shopImg": "http://images.tomorrowgold.com/images/93/fc/ae/06f06fe8c16643db951d460069cc91c0.jpg",
+          "id": 41,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1130%2Fcid&amp;item_top=true"
+        }, {
+          "name": "\"精选生鲜 新鲜供应　即时享受\"",
+          "shopImg": "http://images.tomorrowgold.com/images/a0/83/bb/5d64de068dfe44e7b4c79f2cb777c294.jpg",
+          "id": 42,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=2148%2Fcid&amp;item_top=true"
+        }, {
+          "name": "健康冲调",
+          "shopImg": "http://images.tomorrowgold.com/images/b2/90/28/b3a2eb30ac774d7cba183070692b6a41.jpg",
+          "id": 43,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1869%2Fcid&amp;item_top=true"
+        }, {
+          "name": "粮油调味",
+          "shopImg": "http://images.tomorrowgold.com/images/b5/f7/b4/4edc83a8b5da4aeea8ce5594d45f30d6.jpg",
+          "id": 44,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1777%2Fcid&amp;item_top=true"
+        }, {
+          "name": "葡萄酒/红酒",
+          "shopImg": "http://images.tomorrowgold.com/images/e4/f1/78/eec6215bdd944ffe96e1f29ad1b76751.jpg",
+          "id": 45,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1124%2Fcid&amp;item_top=true"
+        }],
+        "bannerurl": "https://m.tomorrowgold.com/#/promotion_alone?index=26",
+        "banner": "http://images.tomorrowgold.com/images/e8/52/0b/88eb7a13850949e1b9d72fd5b8eda7d6.jpg",
+        "id": 5,
+        "title": "食 / 品 / 冲 / 饮",
+        "moreurl": "https://m.tomorrowgold.com/#/classification?time=1560410926289"
+      }, {
+        "shopList": [{
+          "name": "凉席 清凉一夏",
+          "shopImg": "http://images.tomorrowgold.com/images/d9/0d/0e/a1d95ccd0d42437a8fc092ab7fa611d3.jpg",
+          "id": 46,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1978%2Fcid&amp;item_top=true"
+        }, {
+          "name": "锅具  爱烹饪爱生活",
+          "shopImg": "http://images.tomorrowgold.com/images/b5/3c/92/287a0561afc447af81981bb70e165af0.jpg",
+          "id": 47,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1494%2Fcid&amp;item_top=true"
+        }, {
+          "name": "衣物清洁",
+          "shopImg": "http://images.tomorrowgold.com/images/39/69/89/55d691b5b4854d2eaaa0c664994a47f3.jpg",
+          "id": 48,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1660%2Fcid&amp;item_top=true"
+        }, {
+          "name": "榨汁机",
+          "shopImg": "http://images.tomorrowgold.com/images/ae/5b/85/1f596f3989dd4991a4491afbb8dcfed5.jpg",
+          "id": 49,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=547%2Fcid&amp;item_top=true"
+        }, {
+          "name": "扫地机器人",
+          "shopImg": "http://images.tomorrowgold.com/images/e1/3a/14/29a4184a563040028ad596d9e6e02094.jpg",
+          "id": 51,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=470%2Fcid&amp;item_top=true"
+        }],
+        "bannerurl": "https://m.tomorrowgold.com/#/searchItem?reqResult=184%2Fvid%263%2Ftype",
+        "banner": "http://images.tomorrowgold.com/images/9f/9b/7b/4f6de603a7f944c2874e1f9202da3dce.jpg",
+        "id": 6,
+        "title": "家 / 居 / 日 / 用",
+        "moreurl": "https://m.tomorrowgold.com/#/classification?time=1560410926289"
+      }, {
+        "shopList": [{
+          "name": "宝宝洗浴",
+          "shopImg": "http://images.tomorrowgold.com/images/6c/d3/4c/9fbc7748dc344a318638a176c69be3be.jpg",
+          "id": 54,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=936%2Fcid&amp;item_top=true"
+        }, {
+          "name": "宝宝零食",
+          "shopImg": "http://images.tomorrowgold.com/images/97/54/32/4595ad77a2414ee080879d7ccc6abddd.jpg",
+          "id": 55,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1076%2Fcid&amp;item_top=true"
+        }, {
+          "name": "水壶/水杯",
+          "shopImg": "http://images.tomorrowgold.com/images/51/2b/bf/3eb20a27974e43c78dc33750e65a94a2.jpg",
+          "id": 56,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1849%2Fcid&amp;item_top=true"
+        }, {
+          "name": "尿裤湿巾",
+          "shopImg": "http://images.tomorrowgold.com/images/1b/e7/55/2c919297dbb944ceb1338dece30670d4.jpg",
+          "id": 57,
+          "url": "https://m.tomorrowgold.com/#/searchItem?reqResult=1147%2Fcid&amp;item_top=true"
+        }, {
+          "name": "创益币专区",
+          "shopImg": "http://images.tomorrowgold.com/images/28/17/04/3a3928224e1f46b2a869799a1bec25f1.jpg",
+          "id": 59,
+          "url": "https://m.tomorrowgold.com/#/coinItemList"
+        }],
+        "bannerurl": "https://m.tomorrowgold.com/#/searchItem?reqResult=944%2Fcid&amp;item_top=true",
+        "banner": "http://images.tomorrowgold.com/images/6b/93/e6/c7c9665187344a90b0074b0ad67b896b.jpg",
+        "id": 7,
+        "title": "母 / 婴 / 用 / 品",
+        "moreurl": "https://m.tomorrowgold.com/#/classification?time=1560410926289"
+      }]
+    }
+  }

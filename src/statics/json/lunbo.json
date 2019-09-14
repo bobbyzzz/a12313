@@ -1,0 +1,25 @@
+{
+    "status": 200,
+    "message": "操作成功",
+    "data": {
+      "bannerList": [{
+        "src": "http://images.tomorrowgold.com/images/43/fa/7f/8568839c73064875aae35c818e7c2e38.jpg",
+        "href": "https://m.tomorrowgold.com/#/promotion_alone?index=23"
+      }, {
+        "src": "http://images.tomorrowgold.com/images/c6/2f/da/36a1729b716742ad8d92f8fd5af9a2f4.jpg",
+        "href": "https://m.tomorrowgold.com/#/promotion_alone?index=39"
+      }, {
+        "src": "http://images.tomorrowgold.com/images/2f/64/78/72dc34ac6bdf4f239339395f29930f36.png",
+        "href": "#"
+      }, {
+        "src": "http://images.tomorrowgold.com/images/a0/91/bc/869bcd1a2b9e4418b7b213ed3a5fd9a9.jpg",
+        "href": "https://m.tomorrowgold.com/#/classification?time=1533024699499"
+      }, {
+        "src": "http://images.tomorrowgold.com/images/13/f1/01/a5f981b0fcc642fd9b70c9c10beab389.jpg",
+        "href": "https://m.tomorrowgold.com/#/classification?time=1533024699499"
+      }, {
+        "src": "http://images.tomorrowgold.com/images/8a/07/21/483f6ed0b9bc4c158d6504472af94e37.png",
+        "href": "#"
+      }]
+    }
+  }

@@ -3,16 +3,16 @@
     <!-- 头部 -->
     <div class="header">
       <form action="#">
-        <input type="text">
+        <input type="text" />
       </form>
-      <img class="search" src="../statics/img/icon/search.png" alt>
-      <img class="msg" src="../statics/img/icon/msg.png" alt>
+      <img class="search" src="../statics/img/icon/search.png" alt />
+      <img class="msg" src="../statics/img/icon/msg.png" alt />
     </div>
     <!-- 轮播 -->
     <div class="banner">
       <van-swipe :autoplay="3000" indicator-color="white">
         <van-swipe-item @click="bannerTap(index)" v-for="(item, index) in bannerArr" :key="index">
-          <img :src="item.src" alt>
+          <img :src="item.src" alt />
         </van-swipe-item>
       </van-swipe>
     </div>
@@ -21,7 +21,7 @@
       <ul>
         <li @click="getItemId(item,index)" v-for="(item, index) in viewArr" :key="index">
           <div>
-            <img v-lazy="item.pic" alt>
+            <img v-lazy="item.pic" alt />
           </div>
           <p>{{item.title}}</p>
         </li>
@@ -30,7 +30,7 @@
     <!-- 每日头条 -->
     <div class="dayNews">
       <div>
-        <img src="../statics/img/index/tomorrow.png" alt>
+        <img src="../statics/img/index/tomorrow.png" alt />
       </div>
       <div class="scrollNews">
         <van-swipe style="height: 0.2rem;" :autoplay="3000" vertical :show-indicators="false">
@@ -45,23 +45,23 @@
     <div class="main">
       <ul class="father-ul" v-for="(item, index) in mainArr" :key="index">
         <li class="mainBanner">
-          <img class="picBanner" v-lazy="item.banner" alt>
+          <img class="picBanner" v-lazy="item.banner" alt />
         </li>
         <li class="mainTitle">
           <div class="mainTitle-left">
-            <img src="../statics/img/index/titleBcg.png" alt>
+            <img src="../statics/img/index/titleBcg.png" alt />
             <p>{{item.title}}</p>
           </div>
           <router-link to="/shoppingClass">
             <div class="mainTitle-right">
               <p>更多分类</p>
-              <img src="../statics/img/icon/arrow.png" alt>
+              <img src="../statics/img/icon/arrow.png" alt />
             </div>
           </router-link>
         </li>
         <ul class="child-ul">
           <li @click="getItemsData(items)" v-for="(items, index) in item.shopList" :key="index">
-            <img v-lazy="items.shopImg" alt>
+            <img v-lazy="items.shopImg" alt />
           </li>
         </ul>
       </ul>
@@ -72,6 +72,16 @@
 </template>
 <script>
 import myFooter from "./footer";
+// import lunbo from '../../json/lunbo.json';
+// import news from '../../json/news.json';
+// import selectList from '../../json/selectList.json';
+// import shoppingClass from '../../json/shoppingClass.json';
+// import shoppingList from '../../json/shoppingList.json';
+// import viewList from '../../json/viewList.json';
+// import zuomuniao from '../../json/zuomuniao.json';
+// import biaosu from '../../json/biaosu.json';
+// import classList from '../../json/classList.json';
+// console.log(lunbo)
 export default {
   data() {
     return {
@@ -98,6 +108,7 @@ export default {
           alert(err);
         }
       );
+      
     },
     // 获取视图数据
     getViewData() {
@@ -179,7 +190,7 @@ export default {
       this.$router.push("/shoppingList");
     },
     getItemId(item, index) {
-      console.log(index);
+      // console.log(index);
       if (index == 0 || index == 4) {
         this.$router.push("/shoppingList");
       } else {

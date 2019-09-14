@@ -12,6 +12,9 @@ import vip from '../components/vip.vue'
 import brand from '../components/brand.vue'
 import shoppingDetails from '../components/shoppingDetails.vue'
 import shoppingList from '../components/shoppingList.vue'
+import dindan from '../components/dindan.vue'
+import login from '../components/login.vue'
+import register from '../components/register.vue'
 
 //地址
 const routes = [{
@@ -35,10 +38,19 @@ const routes = [{
 }, {
     path: '/shoppingDetails',
     component: shoppingDetails
-},{
+}, {
     path: '/shoppingList',
     component: shoppingList
-}, ]
+}, {
+    path: '/dindan',
+    component: dindan
+}, {
+    path: '/login',
+    component: login
+}, {
+    path: '/register',
+    component: register
+}]
 
 const router = new VueRouter({
     routes
