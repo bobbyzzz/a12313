@@ -51,7 +51,12 @@
       <!-- 商品列表 -->
       <div class="shoppingList">
         <a href="#">
-          <li @click="getId(item)" v-for="(item, index) in FiveListMap" :key="index" class="shoplist">
+          <li
+            @click="getId(item)"
+            v-for="(item, index) in FiveListMap"
+            :key="index"
+            class="shoplist"
+          >
             <div class="shop1">
               <img :src="item.image_default_id" alt />
             </div>
@@ -83,23 +88,19 @@ export default {
     },
     //获取购物车商品列表
     getShopData() {
-      this.$axios
-        .get(
-          "https://www.easy-mock.com/mock/5d6db90b1d79e9380a11989c/shopcar/shopcar"
-        )
-        .then(
-          res => {
-            this.FiveListMap = res.data.data.FiveListMap;
-          },
-          err => {
-            alert(err);
-          }
-        );
+      this.$axios.get("/shopcar").then(
+        res => {
+          this.FiveListMap = res.data.data.FiveListMap;
+        },
+        err => {
+          alert(err);
+        }
+      );
     },
-    getId(item){
+    getId(item) {
       // console.log(item.item_id)
-      localStorage.setItem('itemId',item.item_id)
-      this.$router.push('/shoppingDetails')
+      localStorage.setItem("itemId", item.item_id);
+      this.$router.push("/shoppingDetails");
     }
   },
   created() {

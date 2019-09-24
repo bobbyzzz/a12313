@@ -154,7 +154,7 @@ export default {
       picShow: false,
       show: false,
       car: "",
-      num:0,
+      num: 0
     };
   },
   methods: {
@@ -204,13 +204,18 @@ export default {
       this.$router.go(-1);
     },
     addCar() {
-      this.num +=1
-      this.car = this.num;
-      sessionStorage.setItem('count',this.car)
-      sessionStorage.setItem('carData',JSON.stringify(this.detailsData))
+      this.car = 1;
+      this.num += 1;
+      let list = JSON.parse(sessionStorage.getItem("carData") || "[]");
+      if(this.detailsData.isRoyalmilk ==false){
+        this.detailsData.isRoyalmilk = true
+        list.push(this.detailsData);
+      }
+      sessionStorage.setItem("carData", JSON.stringify(list));
+      // sessionStorage.setItem("count", this.car);
     },
-    goCar(){
-      this.$router.push("/shoppingCar")
+    goCar() {
+      this.$router.push("/shoppingCar");
     }
   },
   created() {

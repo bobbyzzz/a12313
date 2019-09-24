@@ -19,7 +19,8 @@
       <!-- 头中 -->
       <div class="top-m">
         <div class="top-ml">
-          <img src="../statics/img/vip/my_img.png" alt />
+          <img v-if="touxShow" src="../statics/img/vip/my_img.png" alt />
+          <img v-else width="0.5rem" height="0.5rem" src="../statics/img/touxiang.jpg" alt="">
         </div>
         <div class="top-mr">
           <div class="top-mrl">
@@ -197,6 +198,7 @@ export default {
   data() {
     return {
       topBarIndex: 0,
+      touxShow: true,
       lister: [
         {
           big: "￥0",
@@ -248,8 +250,7 @@ export default {
               " 投资分润：1.根据消费投资在平台的运行情况确定每天或者每阶段的分润比例，每天0时生成前一天分成金额，满一百即可申请提现。2.年满60岁，每天获得投资分润是正常投资人2倍，用于补充消费养老。60岁以上注册的消费者，满一年后直接提高至双倍分润。 "
           }
         ]
-        // [{ title: 3, text: 4 }],
-        // [{ title: 5, text: 6 }]
+        
       ],
       userName: "",
       isShow: true
@@ -269,6 +270,7 @@ export default {
       this.userName = sessionStorage.getItem("user");
       if (this.userName != null) {
         this.isShow = false;
+        this.touxShow = false
       }else{
         this.isShow = true;
       }

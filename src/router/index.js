@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import axios from 'axios'
-axios.defaults.baseURL = "https://www.easy-mock.com/mock/5d69cc7bfe6deb2209936e6c/tomorrow"
+axios.defaults.baseURL = "https://mock.yonyoucloud.com/mock/2074"
 Vue.prototype.$axios = axios
 //路由
 import index from '../components/index.vue'

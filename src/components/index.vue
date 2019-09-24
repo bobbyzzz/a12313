@@ -72,16 +72,7 @@
 </template>
 <script>
 import myFooter from "./footer";
-// import lunbo from '../../json/lunbo.json';
-// import news from '../../json/news.json';
-// import selectList from '../../json/selectList.json';
-// import shoppingClass from '../../json/shoppingClass.json';
-// import shoppingList from '../../json/shoppingList.json';
-// import viewList from '../../json/viewList.json';
-// import zuomuniao from '../../json/zuomuniao.json';
-// import biaosu from '../../json/biaosu.json';
-// import classList from '../../json/classList.json';
-// console.log(lunbo)
+
 export default {
   data() {
     return {
